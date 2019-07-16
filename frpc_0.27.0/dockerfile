@@ -17,4 +17,4 @@ echo '#!/bin/bash \n\
 /frp_${FRP_VERSION}/frpc -c /frpc/config/frpc.ini' > start.sh && \
 chmod +x start.sh 
 
- ENTRYPOINT [ "/start.sh" ]
+ENTRYPOINT [ "/start.sh" ]
